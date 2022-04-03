@@ -25,8 +25,11 @@
   <body
     class="bg-image"
     style="
-      background-image: url('https://source.unsplash.com/1200x400?book ');
-      height: 100vh;
+      background-image: url('https://source.unsplash.com/1200x400?motorbike ');
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     ">
 
   	@include('partials.navbar')
