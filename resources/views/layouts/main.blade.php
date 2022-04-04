@@ -25,7 +25,7 @@
   <body
     class="bg-image"
     style="
-      background-image: url('https://source.unsplash.com/1200x400?motorbike ');
+      background-image: url('https://source.unsplash.com/1200x400?machine');
       height: 100%;
       background-position: center;
       background-repeat: no-repeat;
