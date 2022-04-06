@@ -8,7 +8,7 @@
 </p>
 
 # About This Project
-This Project is created as final project our KP in Tapanuli Motor
+This Project is created as final project for our KP in Tapanuli Motor
 
 ## Requirement
 - XAMPP with PHP 7.*
@@ -19,8 +19,9 @@ This Project is created as final project our KP in Tapanuli Motor
 - git clone this repository (for now this branch, using "$ git clone -b baru https://github.com/prisma7771/ProjekKP.git")
 - run $ composer install
 - run $ php artisan key:generate
-- setting .env with your database setting
 - run mysql server using xampp (or any mysql database server you use)
+- create database(you don`t need  to create any tableinside  it, laravel will make it for you)
+- setting .env with your database setting
 - run $ php artisan migrate:fresh --seed to have data dummy in database, else just run without --seed
 - run $ php artisan server
 
