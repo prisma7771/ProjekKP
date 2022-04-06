@@ -16,7 +16,7 @@ This Project is created as final project our KP in Tapanuli Motor
 - Code Editor/IDE (We Recommended using VSC)
 
 ## How To Use
-- git clone this repository (for now this branch, using "$ git clone -b baru https://github.com/prisma7771/ProjekKP")
+- git clone this repository (for now this branch, using "$ git clone -b baru https://github.com/prisma7771/ProjekKP.git")
 - run $ composer install
 - run $ php artisan key:generate
 - setting .env with your database setting
