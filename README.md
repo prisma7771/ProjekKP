@@ -25,4 +25,4 @@ This Project is created as final project for our KP in Tapanuli Motor
 - run $ php artisan migrate:fresh --seed to have data dummy in database, else just run without --seed
 - run $ php artisan server
 
-
+# (THIS PROJECT IS NOT FINISHED YET)
