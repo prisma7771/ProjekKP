@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\PostController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,8 +17,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function ( ) {
-    return view('home', [
-        "title" => "Home"
-      ]); 
-});
+// Main Page
+Route::get('/', [HomeController::class,'show']);
+Route::get('/about', [AboutController::class,'showAbout']);
+Route::get('/posts', [PostController::class, 'index']);
